@@ -1,5 +1,5 @@
-# idealista Android challenge
-idealista Android crew needs you! We need a fellow to face our everyday challenges: new features, problem fixes, UI design, performance, security, backwards compatibility, testing...
+# Megabite Android challenge
+Megabite Android crew needs you! We need a fellow to face our everyday challenges: new features, problem fixes, UI design, performance, security, backwards compatibility, testing...
 
 This repository contains a project ready to work with, but we need your help to build the next amazing features that will bring it to the next level, are you ready to go?
 
@@ -38,5 +38,5 @@ Damn it! It seems the project has some kind of errors...could you help us to fix
 
 ###### Once you've finished
 1. Generate the application apk and place it into a distribution folder
-2. Notify by email to rrhh@idealista.com which branch of your repo you want our Android team analyze or send us the project folder (including the .git)
-3. Have a beer after the work done
+2. You have a limit of 4 hours to work on it, choise well when you will do it 
+3. Notify by email to lespinoza@megabitefood.com with the subject **"android_test_[my_name]"**, send us your git repository and please ensure to include the .apk installer to be downloaded (not include a runnable .apk is unacceptable).
