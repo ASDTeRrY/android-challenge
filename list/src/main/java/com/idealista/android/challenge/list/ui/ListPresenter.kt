@@ -1,5 +1,7 @@
 package com.idealista.android.challenge.list.ui
 
+import android.app.Application
+import android.widget.Toast
 import com.idealista.android.challenge.core.CoreAssembler
 import com.idealista.android.challenge.core.api.model.CommonError
 import com.idealista.android.challenge.core.wrench.usecase.UseCase
@@ -25,6 +27,9 @@ class ListPresenter(private val view: ListView) {
             }.run(CoreAssembler.executor)
     }
 
-    fun onAdClicked(ad: AdModel) {}
+    fun onAdClicked(ad: AdModel) {
+        print("ASD.sLyon$ad")
+        //Toast.makeText(, ad, Toast.LENGTH_LONG)
+    }
 
 }

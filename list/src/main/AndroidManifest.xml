@@ -1,12 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.idealista.android.challenge.list">
+
     <application>
-        <activity android:name=".ui.ListActivity"
+        <activity
+            android:name=".ui.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ListActivity"
             android:theme="@style/AppTheme.Base">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
